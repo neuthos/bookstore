@@ -39,7 +39,6 @@ const bookService = {
 
     const response = await request.json();
 
-    await sleep(1500);
     return response.data || [];
   },
 
@@ -75,7 +74,6 @@ const bookService = {
     }
     const response = await request.json();
 
-    await sleep(1500);
     return response.data || null;
   },
 
@@ -94,7 +92,6 @@ const bookService = {
 
     const response = await request.json();
 
-    await sleep(1500);
     return response.data || [];
   },
 
@@ -118,7 +115,6 @@ const bookService = {
 
     const response = await request.json();
 
-    await sleep(1500);
     return response.data || [];
   },
 
@@ -145,7 +141,6 @@ const bookService = {
 
     const response = await request.json();
 
-    await sleep(1500);
     return response.data || [];
   },
 };
